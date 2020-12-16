@@ -1,0 +1,393 @@
+.header{
+    background-color: #095169;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;
+    text-decoration: none;
+    top: 0px;
+    
+}
+
+.header nav ul  li{
+    text-decoration: none;
+}
+
+.header .social a{
+    color: rgb(91, 168, 91);
+    margin: 0px 10px;
+    filter: invert(100%);
+}
+.header .social a .logo{
+    color: white;
+    margin: 0px 10px;
+    filter: invert(100%);
+}
+
+
+/* navigation bar  */
+.navbar{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    position: relative;
+    
+}
+
+
+.navbar::before{
+    content: "";  
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.2
+}
+
+#logo{
+    
+    margin: 10px 34px;
+}
+
+ #logo img{
+    height: 100px;
+    width: 150px;
+    margin: 3px 4px;
+}
+
+/* Navigation bar: List styling */
+.navbar ul{
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.navbar ul li{
+    list-style: none;
+    font-size: 1rem;
+}
+
+.navbar ul li a{
+    color: #49b1dd;
+    display: block;
+    padding: 3px 11px;
+   
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+    border-bottom: 1px solid black;
+    background-color: white;
+}
+
+/* Home section  */
+#home{
+    display: flex;
+    flex-direction:column;
+    padding: 2px 200px;
+    height: 545px;
+    justify-content: left;
+    align-items: center;
+    background:  url('../img/img1.jpg') no-repeat center center/cover;
+    height: 400px;
+}
+
+
+#home h1{
+    color: white;
+    text-align: left;
+    justify-content: left;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#home p{
+    color: white;
+    text-align: left;
+    justify-content: left;
+    font-size: 1.3rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#home .btn{
+    background-color: #9bc870;
+}
+
+.section{
+    display: flex;
+    height: 40px;
+    background-color: #095169;
+   
+}
+
+.section p{
+    color: white;
+    margin: 10px 200px
+}
+
+.section .btn{
+    margin: 5px ;
+    height: 25px;
+    background-color: #9bc870;
+}
+
+/* services container  */
+
+.services-main h1{
+    
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.services-main p{
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.services{
+    display: flex;
+    margin: 10px;
+
+}
+
+.services .box{
+   
+    padding: 34px;
+    margin: 1px 4px;
+    
+    
+   
+}
+
+.services .box .btn1{
+    align-items: center;
+    justify-content: center;
+    background-color: #9bc870;
+    border: 1px solid #9bc870;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.services .box img{
+    display: block;
+    margin: auto;
+    height: 70px;
+    
+}
+.services .box h2,
+.services .box p{
+    text-align: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.offer{
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 2px 83px;
+    height: 500px;
+    justify-content: left;
+    align-items: center;
+    background: url('../img/img3.jpg') no-repeat center center/cover ;    
+}
+
+.offer .header1{
+    text-align: center;
+    justify-self: center;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.offer .video{
+    margin: 0 10px;
+}
+.offer .btn{
+    color: white;
+    padding: 10px;
+    border: none;
+    background-color: #9bc870;
+}
+
+
+.section1{
+    display: flex;
+    height: 80px;
+    padding: 4px;
+    color: white;
+    justify-items: center;
+    align-items: center;
+    background-color: #9bc870;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.section1 .container1{
+    justify-self: flex-end;
+    color: white;
+    align-items: flex-end;
+    margin: 0px 200px;
+    padding: 12px;
+    font-family: 'Open Sans', sans-serif;
+}
+.section1 .container1 .btn-1{
+    background-color: #095169;
+    font-size: 18px;
+    border: 2px solid #095169;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.section1 .container1 .btn-2{
+    border: 1px solid #095169;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.section-2 .container-1{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.section-2 .container-1 h1{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: rgb(63, 63, 241);
+}
+
+.section-2 .container-1 .btn{
+    padding: 14px 40px;
+    border: 1px solid #9bc870;
+    background-color: #9bc870;
+}
+
+.section-3{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(121, 121, 231);
+}
+
+.section-3 .video-1{
+    margin: 3px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-3 .container-3 h1{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.section4{
+    display: flex;
+    height: 40px;  
+    font-family: 'Open Sans', sans-serif;
+}
+
+.section4 p{
+    color: rgb(69, 69, 206);
+    margin: 10px 200px;
+
+}
+
+.section4 .btn{
+    margin: 10px ;
+    height: 25px;
+}
+.section4 .btn1{
+    color: white;
+    background-color: #a3e466;
+    padding: 4px 12px;
+    border: none;
+}
+.section4 .btn2{
+    border: 1px solid #aaf168;
+    padding: 4px 12px;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.center ul{
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.center ul li{
+    list-style: none;
+    font-size: 12px;
+    padding: 0px 10px;
+}
+
+.navbar1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top: 0px;
+    position: relative;
+    list-style: none;
+    
+}
+
+
+.navbar1::before{
+    content: "";  
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.2
+}
+
+#logo2{
+    
+    margin: 10px 34px;
+}
+
+ #logo2 img{
+    height: 100px;
+    width: 150px;
+    margin: 3px 4px;
+}
+
+/* Navigation bar: List styling */
+.navbar1 ul li{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar1 li{
+    
+    flex-direction: column;
+    list-style: none;
+}
+
+
+
+/* .navbar1 ul li li{
+    list-style: none;
+    font-size: 1rem;
+} */
